@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: TestRunner.AmazonTest
+-------------------------------------------------------------------------------
+Tests run: 19, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 2.03 s <<< FAILURE! - in TestRunner.AmazonTest
+Billing Amount #1(Calculate Billing Amount #2)  Time elapsed: 0.038 s  <<< ERROR!
+io.cucumber.core.runner.AmbiguousStepDefinitionsException: 
+"user enters tax amount 10" matches more than one step definition:
+  "user enters tax amount {double}" in StepDefinition.BillingOverloadedSteps.user_enters_tax_amount(java.lang.Double)
+  "user enters tax amount {int}" in StepDefinition.BillingOverloadedSteps.user_enters_tax_amount(java.lang.Integer)
+
+Billing Amount #2(Calculate Billing Amount #2)  Time elapsed: 0.024 s  <<< ERROR!
+io.cucumber.core.runner.AmbiguousStepDefinitionsException: 
+"user enters tax amount 20" matches more than one step definition:
+  "user enters tax amount {double}" in StepDefinition.BillingOverloadedSteps.user_enters_tax_amount(java.lang.Double)
+  "user enters tax amount {int}" in StepDefinition.BillingOverloadedSteps.user_enters_tax_amount(java.lang.Integer)
+
+Billing Amount #3(Calculate Billing Amount #2)  Time elapsed: 0.013 s  <<< ERROR!
+io.cucumber.java.PendingException: TODO: implement me
+

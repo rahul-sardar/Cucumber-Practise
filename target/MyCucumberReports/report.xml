@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="1.032">
+    <testcase classname="Amazon Order Page" name="Check Previous Order Details" time="0.25">
+        <system-out>
+            <![CDATA[Given a registered user exists..............................................passed
+Given User is on amazon login page..........................................passed
+And user enter username.....................................................passed
+And user enter password.....................................................passed
+And user clicks on login button.............................................passed
+Then User navigate to orders page...........................................passed
+When User Clicks on Order Link..............................................passed
+Then User Check Order Detail Page...........................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Amazon Order Page" name="Check Open Order Details" time="0.025">
+        <system-out>
+            <![CDATA[Given a registered user exists..............................................passed
+Given User is on amazon login page..........................................passed
+And user enter username.....................................................passed
+And user enter password.....................................................passed
+And user clicks on login button.............................................passed
+Then User navigate to orders page...........................................passed
+When User Clicks on Open Order Link.........................................passed
+Then User Check the Open Order Detail.......................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Amazon Order Page" name="Check Cancelled Order Details" time="0.007">
+        <system-out>
+            <![CDATA[Given a registered user exists..............................................passed
+Given User is on amazon login page..........................................passed
+And user enter username.....................................................passed
+And user enter password.....................................................passed
+And user clicks on login button.............................................passed
+Then User navigate to orders page...........................................passed
+When User Clicks on Cancelled Order Link....................................passed
+Then User Check the Cancelled Order Detail..................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

@@ -1,0 +1,361 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3294000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "a registered user exists",
+            "match": {
+              "location": "StepDefinition.OrdersStep.a_registered_user_exists()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 402000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is on amazon login page",
+            "match": {
+              "location": "StepDefinition.OrdersStep.user_is_on_amazon_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 284000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enter username",
+            "match": {
+              "location": "StepDefinition.OrdersStep.user_enter_username()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 327000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enter password",
+            "match": {
+              "location": "StepDefinition.OrdersStep.user_enter_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 289000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "StepDefinition.OrdersStep.user_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 243000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User navigate to orders page",
+            "match": {
+              "location": "StepDefinition.OrdersStep.user_navigate_to_orders_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-07T18:44:23.092Z",
+        "line": 13,
+        "name": "Check Previous Order Details",
+        "description": "",
+        "id": "amazon-order-page;check-previous-order-details",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 243000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User Clicks on Order Link",
+            "match": {
+              "location": "StepDefinition.OrdersStep.user_clicks_on_order_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2379000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User Check Order Detail Page",
+            "match": {
+              "location": "StepDefinition.OrdersStep.user_check_order_detail_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 347000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "a registered user exists",
+            "match": {
+              "location": "StepDefinition.OrdersStep.a_registered_user_exists()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 312000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is on amazon login page",
+            "match": {
+              "location": "StepDefinition.OrdersStep.user_is_on_amazon_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 383000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enter username",
+            "match": {
+              "location": "StepDefinition.OrdersStep.user_enter_username()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 338000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enter password",
+            "match": {
+              "location": "StepDefinition.OrdersStep.user_enter_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 180000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "StepDefinition.OrdersStep.user_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 154000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User navigate to orders page",
+            "match": {
+              "location": "StepDefinition.OrdersStep.user_navigate_to_orders_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-07T18:44:23.496Z",
+        "line": 17,
+        "name": "Check Open Order Details",
+        "description": "",
+        "id": "amazon-order-page;check-open-order-details",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 205000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User Clicks on Open Order Link",
+            "match": {
+              "location": "StepDefinition.OrdersStep.user_clicks_on_open_order_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1118000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User Check the Open Order Detail",
+            "match": {
+              "location": "StepDefinition.OrdersStep.user_check_the_open_order_detail()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 234000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "a registered user exists",
+            "match": {
+              "location": "StepDefinition.OrdersStep.a_registered_user_exists()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 214000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is on amazon login page",
+            "match": {
+              "location": "StepDefinition.OrdersStep.user_is_on_amazon_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 230000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enter username",
+            "match": {
+              "location": "StepDefinition.OrdersStep.user_enter_username()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 223000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enter password",
+            "match": {
+              "location": "StepDefinition.OrdersStep.user_enter_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 209000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "StepDefinition.OrdersStep.user_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 207000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User navigate to orders page",
+            "match": {
+              "location": "StepDefinition.OrdersStep.user_navigate_to_orders_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-07T18:44:23.583Z",
+        "line": 21,
+        "name": "Check Cancelled Order Details",
+        "description": "",
+        "id": "amazon-order-page;check-cancelled-order-details",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 444000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User Clicks on Cancelled Order Link",
+            "match": {
+              "location": "StepDefinition.OrdersStep.user_clicks_on_cancelled_order_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 380000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User Check the Cancelled Order Detail",
+            "match": {
+              "location": "StepDefinition.OrdersStep.user_check_the_cancelled_order_detail()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Amazon Order Page",
+    "description": "In order to check my order details\nAs a registered user",
+    "id": "amazon-order-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/AppFeature/Order.feature",
+    "tags": []
+  }
+]
